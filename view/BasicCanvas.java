@@ -26,14 +26,12 @@ public class BasicCanvas extends JPanel {
         super.paintComponent(g);
 
         Graphics2D g2= (Graphics2D) g;
-        Graphics2D g3= (Graphics2D) g;
-        Graphics2D g4= (Graphics2D) g;
+       
 
        
         
         BasicPlan q = new BasicPlan("$150", "$141.98", "50 msgs",  "28 days");
-        BasicPlan q1 = new BasicPlan("$200", "$191.89", "100 msgs", "56 days");
-        BasicPlan q2 = new BasicPlan("$250", "$238.76", "175 msgs", "84 days");
+     
         q.render(g2);
         //q1.render(g3);
         //q2.render(g4);

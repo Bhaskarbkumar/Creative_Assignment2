@@ -27,14 +27,12 @@ public class DataCanvas extends JPanel {
         super.paintComponent(g);
 
         Graphics2D g2= (Graphics2D) g;
-        Graphics2D g3= (Graphics2D) g;
-        Graphics2D g4= (Graphics2D) g;
+       
 
        
         
         DataPlan q = new DataPlan("2GB","$450", "unlimited", "unlimited",  "84 days");
-        DataPlan q1 = new DataPlan("2GB","$600", "unlimited", "unlimited", "56 days");
-        DataPlan q2 = new DataPlan("2GB","$850", "unlimited", "unlimited", "64 days");
+       
         q.render(g2);
         //q1.render(g3);
         //q2.render(g4);
